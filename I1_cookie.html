@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+  <table border=1>
+    <tr><th>cookie</th>
+        <th>value</th>
+    <tr>
+    {%for key,value in keyvalue.items()%}
+    <tr><td>{{key}}</td>
+        <td>{{value}}</td>
+    <tr>
+    {%endfor%}
+ </table>
+</body>
+</html>
